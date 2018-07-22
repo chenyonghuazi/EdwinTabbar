@@ -12,6 +12,7 @@
 		E83192132104073200A835E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83192112104073200A835E5 /* Main.storyboard */; };
 		E83192152104073500A835E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83192142104073500A835E5 /* Assets.xcassets */; };
 		E83192182104073500A835E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83192162104073500A835E5 /* LaunchScreen.storyboard */; };
+		E831922221040CEE00A835E5 /* EdwinTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831922121040CEE00A835E5 /* EdwinTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E83192142104073500A835E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E83192172104073500A835E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E83192192104073500A835E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E831922121040CEE00A835E5 /* EdwinTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdwinTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E83192142104073500A835E5 /* Assets.xcassets */,
 				E83192162104073500A835E5 /* LaunchScreen.storyboard */,
 				E83192192104073500A835E5 /* Info.plist */,
+				E831922121040CEE00A835E5 /* EdwinTabbar.swift */,
 			);
 			path = EdwinTabbar;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E831922221040CEE00A835E5 /* EdwinTabbar.swift in Sources */,
 				E83192102104073200A835E5 /* ViewController.swift in Sources */,
 				E831920E2104073200A835E5 /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCPU83AAPV;
 				INFOPLIST_FILE = EdwinTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCPU83AAPV;
 				INFOPLIST_FILE = EdwinTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
